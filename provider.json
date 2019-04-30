@@ -41,7 +41,7 @@
   },
   {
     "vulnerability":"Git Exposed publicly",
-    "sendIn":"url",
+    "sendIn":"url",f
     "payload":["/.git/config"],
     "checkIn":"responseBody",
     "checkFor":"[core]",
@@ -190,7 +190,7 @@
       ],
       "checkIn": "responseBody",
       "checkFor": "applinks",
-      "color": "red"
+      "color": "blue"
     }
   ]
 
